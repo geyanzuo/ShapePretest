@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ShapePretest
+{
+    public class Quadrilateral: Shape 
+    {
+        public double Side1;
+        public double Side2;
+        public double Side3;
+        public double Side4;
+
+        public Quadrilateral(double pside1, double pside2, double pside3, double pside4, double pcolor): base(pcolor)
+        {
+            Side1 = pside1;
+            Side2 = pside2;
+            Side3 = pside3;
+            Side4 = pside4;
+        }
+    }
+}
